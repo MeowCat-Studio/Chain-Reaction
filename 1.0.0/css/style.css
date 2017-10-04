@@ -1,0 +1,105 @@
+/**
+*	Chain Reaction
+*	@projectName: Chain-Reaction
+*	@author: MlgmXyysd
+*	@version: 1.0.0
+*	@license: GNU General Public License v3.0
+*	@date: 2017/10/03 8:50
+*	@fileName: main.css
+*	Copyright &copy; 2013-2018 MeowCat Studio Powered by MlgmXyysd All Rights Reserved.
+*/
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	height: 100%;
+}
+.background {
+	height: 100%;
+}
+.life_A {
+	position: absolute;
+	z-index: 1;
+	float: left;
+}
+.life_B {
+	position: absolute;
+	z-index: 1;
+	float: left;
+}
+.cat_A {
+	margin-left: 64px;
+	height: 64px;
+	width: 150px;
+}
+.cat_B {
+	margin-left: 64px;
+	height: 64px;
+	width: 150px;
+}
+.cats_A {
+	transform: rotate(180deg);
+	height: 64px;
+	width: 64px;
+}
+.cats_b {
+	height: 64px;
+	width: 64px;
+}
+.ground {
+	height: 192px;
+	width: 200px;
+}
+.group {
+	display: inline;
+	height: 64px;
+	width: 200px;
+}
+.cat {
+	float: left;
+	border: 1px solid #FF6699;
+	height: 64px;
+	width: 64px;
+}
+.cat_0 {
+	background-repeat: no-repeat;
+	background: url(../images/cats.png);
+	float: left;
+	border: 1px solid #FF6699;
+	height: 64px;
+	width: 64px;
+}
+.cat_1 {
+	background-repeat: no-repeat;
+	background: url(../images/cats.png);
+	transform: rotate(90deg);
+	float: left;
+	border: 1px solid #FF6699;
+	height: 64px;
+	width: 64px;
+}
+.cat_2 {
+	background-repeat: no-repeat;
+	background: url(../images/cats.png);
+	transform: rotate(180deg);
+	float: left;
+	border: 1px solid #FF6699;
+	height: 64px;
+	width: 64px;
+}
+.cat_3 {
+	background-repeat: no-repeat;
+	background: url(../images/cats.png);
+	transform: rotate(270deg);
+	float: left;
+	border: 1px solid #FF6699;
+	height: 64px;
+	width: 64px;
+}
+.panel {
+	float: right;
+	border: 1px solid #FF6699;
+	height: 64px;
+	width: 64px;
+}
