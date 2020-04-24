@@ -2,11 +2,11 @@
 *	Chain Reaction
 *	@projectName: Chain-Reaction
 *	@author: MlgmXyysd
-*	@version: 1.0.0
+*	@version: 1.0.1
 *	@license: GNU General Public License v3.0
-*	@date: 2017/10/03 8:50
-*	@fileName: main.css
-*	Copyright &copy; 2013-2018 MeowCat Studio Powered by MlgmXyysd All Rights Reserved.
+*	@date: 2020/04/23 20:59
+*	@fileName: style.css
+*	Copyright &copy; 2013-2020 MeowCat Studio Powered by MlgmXyysd All Rights Reserved.
 */
 html {
 	height: 100%;
@@ -63,16 +63,14 @@ body {
 	width: 64px;
 }
 .cat_0 {
-	background-repeat: no-repeat;
-	background: url(../images/cats.png);
+	background: url(../images/cats.png) no-repeat;
 	float: left;
 	border: 1px solid #FF6699;
 	height: 64px;
 	width: 64px;
 }
 .cat_1 {
-	background-repeat: no-repeat;
-	background: url(../images/cats.png);
+	background: url(../images/cats.png) no-repeat;
 	transform: rotate(90deg);
 	float: left;
 	border: 1px solid #FF6699;
@@ -80,8 +78,7 @@ body {
 	width: 64px;
 }
 .cat_2 {
-	background-repeat: no-repeat;
-	background: url(../images/cats.png);
+	background: url(../images/cats.png) no-repeat;
 	transform: rotate(180deg);
 	float: left;
 	border: 1px solid #FF6699;
@@ -89,8 +86,7 @@ body {
 	width: 64px;
 }
 .cat_3 {
-	background-repeat: no-repeat;
-	background: url(../images/cats.png);
+	background: url(../images/cats.png) no-repeat;
 	transform: rotate(270deg);
 	float: left;
 	border: 1px solid #FF6699;
