@@ -4,7 +4,7 @@
  * @author: MlgmXyysd
  * @version: 1.0.1
  * @license: GNU General Public License v3.0
- * @date: 2020/04/23 20:33
+ * @date: 2020/05/02 19:04
  * @fileName: main.js
  * Copyright &copy; 2013-2020 MeowCat Studio Powered by MlgmXyysd All Rights Reserved.
  */
@@ -52,7 +52,11 @@ const getRandomNum = function (range, zero = true, max = 32767) {
 const updateCatPosition = function (id, position) {
     let pos = $("cat_" + String(id));
     $("cats_" + String(id)).value = position;
-    pos.setAttribute("class", "cat_" + String(position));
+    let gold = "";
+    if (id === 1 || id === 3 || id === 5 || id === 7 || id === 9) {
+        gold = " gold";
+    }
+    pos.setAttribute("class", "cat_" + String(position) + gold);
 };
 
 /**
@@ -208,12 +212,6 @@ window.onload = function () {
         checkLife();
         $("panel_B").style.display = "block";
     }
-    $("straight_A").onclick = function () {
-        $("panel_A").style.display = "none";
-        beat(2, "straight", 1);
-        checkLife();
-        $("panel_B").style.display = "block";
-    }
     $("left_B").onclick = function () {
         $("panel_B").style.display = "none";
         beat(8, "left", 1);
@@ -223,12 +221,6 @@ window.onload = function () {
     $("right_B").onclick = function () {
         $("panel_B").style.display = "none";
         beat(8, "right", 1);
-        checkLife();
-        $("panel_A").style.display = "block";
-    }
-    $("straight_B").onclick = function () {
-        $("panel_B").style.display = "none";
-        beat(8, "straight", 1);
         checkLife();
         $("panel_A").style.display = "block";
     }
